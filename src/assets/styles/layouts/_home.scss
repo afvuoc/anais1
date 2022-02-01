@@ -1897,6 +1897,10 @@ header nav a div, FOOTER nav a div {
 .projects .container .row .card .card-header img {
   height: auto;
 }
+.titulo, .titulo2, .titulo3 {
+  padding-left: 0;
+
+}
 }
 
 @media (max-width: $afv-media-phone) {
