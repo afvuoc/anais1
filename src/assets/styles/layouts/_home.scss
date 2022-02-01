@@ -1834,12 +1834,12 @@ header nav a div, FOOTER nav a div {
   }
   header nav a div, FOOTER nav a div {
 
-    height: 3.3rem;
+    height: 3.4rem;
   }
   header nav button {
     display: block;
     float: right;
-    height: 3.3rem;
+    height: 3.4rem;
     margin: auto;
   }
   .prueba {
@@ -1856,7 +1856,15 @@ header nav a div, FOOTER nav a div {
     border-left: 0;
   }
   .slider figure {
-    top: 3.3rem;
+    top: 3.4rem;
+
+  }
+  .prueba {
+    font-size: 1.1rem;
+  }
+  header nav button span, FOOTER nav button span {
+ 
+    height: 2px;
 
   }
 }
