@@ -1960,6 +1960,10 @@ header nav a div, FOOTER nav a div {
 .slider figure {
   top: 0;
 }
+.slider figure img {
+  height: 100vh;
+  max-height: 100vh;
+}
 }
 
 @media (max-width: $afv-media-phone) {
