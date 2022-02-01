@@ -2124,4 +2124,27 @@ line-height: 2.3rem;
   padding-top: calc(33px + 14%);
   margin-top: 0;
 }
+.projects .container {
+  padding-top: calc(33px + 7%);
+}
+.projects {
+  padding-bottom: calc(33px + 4%);
+}
+.about-me .photocv {
+  padding-top: calc(33px + 7%);
+  margin-top: 0;
+}
+.about-me .curriculumvitae {
+  padding-bottom: calc(33px + 4%);
+}
+.contact .container-form .photo-form div h1 {
+  font-size: 1.1rem;
+
+}.contact .container-form .form-fields form .form-control input {
+
+  font-size: 0.9rem;
+
+  padding: 3%;
+
+}
 }
