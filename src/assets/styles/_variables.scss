@@ -1,0 +1,39 @@
+@use "sass:color";
+
+$afv-corporate-color: #191919;
+$afv-color-black: #000000;
+$afv-color-white: #ffffff;
+$afv-color-hover: #ffffffb3;
+$afv-color-error: #e74c3c;
+
+$afv-lightness: color.scale($afv-color-black, $lightness: 40%);
+$afv-lightness-2: color.scale($afv-color-black, $lightness: 50%);
+
+$afv-font-family: "Open sans",  Arial, sans-serif;
+
+$afv-transition: .4s;
+
+$afv-media-tablet: 768px;
+$afv-media-phone: 567px;
+
+$afv-margin-auto: 0 auto;
+$afv-border-bottom: 1px solid;
+$afv-header-height: 4.4rem;
+$slider-with:100%/6;
+
+@mixin sucess-error($afv-sucess-error-color: #ff6b31) {
+  border-color: $afv-sucess-error-color;
+}
+
+ .dot {
+  width: 8px;
+  height: 8px;
+  background-color: #fff56d;
+  display: inline-block;
+  border-radius: 50px;
+  position: relative;
+  top: -1px;
+  left: 4px;
+  margin-left: 3px;
+margin-right: 5px;
+}
