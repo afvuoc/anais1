@@ -276,7 +276,27 @@ header, FOOTER {
     }
   }
 }
+.slider {
+  width:70vw;
+  overflow: hidden;
+  display:none;
 
+  figure {
+    position: relative;
+    top: $afv-header-height;
+    left: 0;
+    width: 600%;
+    font-size: 0;
+    animation: 38s slidy infinite;
+
+    img {
+      width: $slider-with;
+      height: calc(100vh - 33px);
+      object-fit: cover; 
+    }
+
+  }
+}
 @keyframes slidy {
   0% { left: 0%; }
   15% { left: 0%; }
@@ -325,6 +345,10 @@ header, FOOTER {
       width: 100vw;
     }
   }
+  .slider {
+    width: 100vw;
+  }
+
 }
 
 @media (max-width: $afv-media-phone) {
@@ -1615,6 +1639,9 @@ position: relative;
 padding-top: 26vh;font-weight: lighter; display:flex;
 }
 @media (max-width: $afv-media-tablet) {
+  .slider{
+    display:block;
+  }
 .phones{
   display:none;
 }
@@ -1667,6 +1694,9 @@ header nav a div, FOOTER nav a div {
   position: relative;
   padding-top: 26vh;font-weight: lighter; display:flex;
   height:74vh;
+  background-image:url("../images/1.gig.jpg");
+  background-size:cover;
+  -webkit-filter: grayscale(100%);
   }
  
   .projects .container .row .card {
@@ -1752,6 +1782,31 @@ header nav a div, FOOTER nav a div {
     padding-right: 2.3%;
 
     margin-left: 2.2%;
+  }
+  .indexnuevo {
+    width: 100vw;
+    min-height: auto;
+    background: black;
+    width: 100vw;
+    background: black;
+      background-size: auto;
+    z-index: 4;
+    position: relative;
+    padding-top: 0;
+    font-weight: lighter;
+    display: flex;
+    height: 100vh;
+    background-size: cover;
+    -webkit-filter: grayscale(100%);
+  }
+  .about__introduction__content {
+    width: 100vw;
+    position: absolute;
+    z-index:300;
+    padding-top:26vh;
+  }
+  .slider{
+    opacity:0.2;
   }
 }
 
