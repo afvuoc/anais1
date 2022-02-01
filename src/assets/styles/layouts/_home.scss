@@ -1975,20 +1975,33 @@ header nav a div, FOOTER nav a div {
 }
 .slider figure img {
   height: 100vh;
-  max-height: 90vh;
+  max-height: 95vh;
 }
 .slider figure {
   font-size: 0;
-  max-height: 90vh;
+  max-height: 95vh;
 }
 .indexnuevo {
   width: 100vw;
 
-  max-height: 90vh;
+  max-height: 95vh;
 }
 }
 
 @media (max-width: $afv-media-phone) {
+  .slider figure img {
+    height: 100vh;
+    max-height: 90vh;
+  }
+  .slider figure {
+    font-size: 0;
+    max-height: 90vh;
+  }
+  .indexnuevo {
+    width: 100vw;
+  
+    max-height: 90vh;
+  }
   .titulo, .titulo2, .titulo3 {
     font-size: 2.5em;
 line-height:2rem;
@@ -2075,13 +2088,14 @@ line-height: 2.3rem;
     font-size: 1rem;
     text-align: center;
     width: 90vw;
+    display:none;
   }
   FOOTER nav {
     width: 90vw;
     margin: 0 auto;
     height: auto;
   }
-  footer{
-    height:6.6rem;
-  }
+.hello{
+  display:none;
+}
 }
