@@ -1915,6 +1915,12 @@ header nav a div, FOOTER nav a div {
   width: 90vw;
  
 }
+.projects .container .row .card .card-body h3 {
+  padding-bottom: 2rem;
+ 
+}.slider figure img {
+  height: calc(100vh - 3.4rem);
+}
 }
 
 @media (max-width: $afv-media-phone) {
