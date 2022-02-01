@@ -1975,16 +1975,28 @@ header nav a div, FOOTER nav a div {
 }
 .slider figure img {
   height: 100vh;
-  max-height: 100vh;
+  max-height: 95vh;
 }
 .slider figure {
   font-size: 0;
-  max-height: 100vh;
+  max-height: 95vh;
 }
 .indexnuevo {
   width: 100vw;
 
-  max-height: 100vh;
+  max-height: 95vh;
+}
+header nav ul {
+  position: fixed;
+  top: 3.4REM;
+  left: -100%;
+  width: 100%;
+  height: auto;
+  border-top: 1px solid white;
+}
+header nav ul.show {
+  left: 0;
+  background-color: black;
 }
 }
 
@@ -2097,5 +2109,8 @@ line-height: 2.3rem;
   }
 .hello{
   display:none;
+}
+.projects .container .row .card .card-body h3 {
+  padding-bottom: 1.7rem;
 }
 }
