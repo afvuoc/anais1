@@ -1921,6 +1921,11 @@ header nav a div, FOOTER nav a div {
 }.slider figure img {
   height: calc(100vh - 3.4rem);
 }
+.slider {
+  width: 100vw;
+  height: 100vh;
+  max-height: 100vh;
+}
 }
 
 @media (max-width: $afv-media-phone) {
