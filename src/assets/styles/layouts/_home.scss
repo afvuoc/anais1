@@ -1603,7 +1603,9 @@ margin-bottom: 0.8rem;
 font-weight:600;
 }
 
-
+.contacta{
+  display:none;
+}
 button {
   filter:invert(1);
   padding: 12px 22px;
@@ -2146,5 +2148,30 @@ line-height: 2.3rem;
 
   padding: 3%;
 
+}
+.about-me .curriculumvitae {
+  padding-top: 5vh;
+}
+
+.contacta{
+  display:block;
+}
+
+
+
+
+
+.contact .container-form .photo-form div .contacta {
+  margin-bottom: 4%;
+  font-size: 1.3rem;
+  font-weight: 600;
+
+}
+.contact .container-form .photo-form div h1 {
+  font-size: 1.1rem;
+  font-weight: 200;
+}
+.contact .container-form .photo-form div h1 {
+  font-size: 0.95rem;
 }
 }
