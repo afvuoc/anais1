@@ -1867,8 +1867,37 @@ header nav a div, FOOTER nav a div {
     height: 2px;
 
   }
-}
+  .about__introduction__content {
+    width: 95vw;
+   
+  }
+  header nav button span, FOOTER nav button span {
+  
+    margin: 7px auto;
+   
+  }
+  .projects .container .row .card .card-body {
+  
+    background-color: #111111;
+  }
+  .projects .container .row .card .card-body h1 {
 
+    background-color: transparent;
+}
+.projects .container .row .card .card-body h1 {
+
+  margin-top: 0;
+  
+  padding: 0;
+
+  padding-top: 6%;
+  padding-bottom: 3%;
+
+}
+.projects .container .row .card .card-header img {
+  height: auto;
+}
+}
 
 @media (max-width: $afv-media-phone) {
   .titulo, .titulo2, .titulo3 {
@@ -1882,5 +1911,9 @@ line-height: 2.3rem;
   .titulo, .titulo2, .titulo3 {
 
     padding-right: 7vw;
+  }
+  .slider figure img {
+    height: 100%;
+   
   }
 }
