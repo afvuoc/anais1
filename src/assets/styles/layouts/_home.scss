@@ -1964,6 +1964,15 @@ header nav a div, FOOTER nav a div {
   height: 100vh;
   max-height: 100vh;
 }
+.slider figure {
+  font-size: 0;
+  max-height: 100vh;
+}
+.indexnuevo {
+  width: 100vw;
+
+  max-height: 100vh;
+}
 }
 
 @media (max-width: $afv-media-phone) {
