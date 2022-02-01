@@ -1415,6 +1415,10 @@ footer {
   padding-top:6vh;
 
 }
+footer{
+  height: 3.3rem;
+
+}
 .loader {
   position: relative;
   display: inline-block;
@@ -1619,7 +1623,9 @@ button {
     transition: $afv-transition;
   }
 }
-
+.ul-footer{
+  float: left;
+}
 .menu-ham {
   filter: invert(0);
 }
@@ -1655,6 +1661,14 @@ z-index: 4;
 position: relative;
 padding-top: 26vh;font-weight: lighter; display:flex;
 }
+
+.contact .container-form .photo-form div h1 {
+  font-size: 1.5rem;
+  font-size: 1.6rem;
+  padding-bottom: 0;
+  margin-bottom: 0.7rem;
+}
+
 @media (max-width: $afv-media-tablet) {
   .slider{
     display:block;
@@ -1662,7 +1676,6 @@ padding-top: 26vh;font-weight: lighter; display:flex;
 .phones{
   display:none;
 }
-
 .about__introduction__content{
 width:100vw;
 position:relative;
@@ -2010,5 +2023,65 @@ line-height: 2.3rem;
     width: 6px;
     height: 6px;
  
+  }
+  .projects .container .row .card .card-body h1 {
+  
+    font-size: 1rem;
+ 
+  }
+  .projects .container .row .card .card-body h1 {
+   
+    padding-bottom: 1%;
+  }
+  .contact .container-form .photo-form div h1 {
+ 
+    font-size: 1.2rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    width: 90vw;
+    padding-top: 0;
+  }
+  .contact .container-form .form-fields form button {
+    width: auto;
+    margin-top: 6%;
+  }
+  .contact .container-form {
+  
+    min-height: auto;
+  }
+  .contact .container-form .form-fields form {
+    width: 90vw;
+    padding-top: 0;
+    padding-bottom: 5vh;
+  }
+  FOOTER nav {
+    width: 90vw;
+    margin: 0 auto;
+  }
+  .ul-footer{
+    float: none;
+  }
+  footer nav a div {
+    display: flex;
+    align-items: center;
+    float: none;
+    height: 4.4rem;
+    width: 90vw;
+    text-align: center;
+    height: 3.3rem;
+    background-color:black;
+  }
+  footer .prueba {
+    font-size: 1rem;
+    text-align: center;
+    width: 90vw;
+  }
+  FOOTER nav {
+    width: 90vw;
+    margin: 0 auto;
+    height: auto;
+  }
+  footer{
+    height:6.6rem;
   }
 }
