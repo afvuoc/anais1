@@ -1929,6 +1929,34 @@ header nav a div, FOOTER nav a div {
 .slider figure img {
   height: 95vh;
 }
+.contact .container-form .form-fields form .form-control {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.contact .container-form .form-fields form {
+  width: 90vw;
+  padding-top: 7vh;
+  padding-bottom: 10vh;
+}
+.contact .container-form .photo-form div h1 {
+  margin-left: 0;
+}
+.contact .container-form .photo-form div {
+  padding-bottom: 8%;
+  background: black;
+}
+.slider figure img {
+  height: calc(100vh - 3.4rem);
+}
+.contact .container-form .form-fields form {
+  width: 90vw;
+  padding-top: 0;
+  padding-bottom: 8vh;
+}
+.contact .container-form .photo-form {
+ 
+  padding-bottom: 0;
+}
 }
 
 @media (max-width: $afv-media-phone) {
