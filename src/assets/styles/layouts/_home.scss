@@ -1671,10 +1671,83 @@ padding-top: 26vh;font-weight: lighter; display:flex;
   margin-bottom: 0.7rem;
 }
 
+.projects .container {
+  padding-bottom: 4%;
+}
+.projects-link{
+  height: 7%;
+  width: 100vw;
+  background: black;
+  padding-top:8%;
+  width: 100vw;
+  background: black;
+  width: 100vw;
+  height: auto;
+  background: black;
+  z-index: 100;
+  display: block;
+  position: relative;
+}
+
+.about-me-link{
+  padding-top:8%;  width: 100vw;
+  background: black;
+}
+.contact-link {
+  height: 7%;
+  width: 100vw;
+  background: black;
+  padding-top:8%;
+  width: 100vw;
+  background: black;
+  width: 100vw;
+  height: auto;
+  background: black;
+  z-index: 100;
+  display: block;
+  position: relative;
+  
+}
+.projects .container {
+  padding-top: 0;
+ 
+}
+.contact .container-form .form-fields {
+
+  padding-bottom: 0;
+
+  
+}
+.contact .container-form {
+ 
+  min-height: 90vh;
+}
+.about-me .curriculumvitae {
+
+  padding-bottom: 5%;
+}
+.projects {
+  padding-bottom: 0%;
+}
+
+
+.contact .container-form .form-fields {
+  padding-top: 0;
+
+
+}
+
+.contact .container-form .photo-form {
+  padding-top: 0vh;
+
+}
+
 @media (max-width: $afv-media-tablet) {
   .slider{
     display:block;
   }
+
+
 .phones{
   display:none;
 }
