@@ -2073,6 +2073,10 @@ header nav ul.show {
   left: 0;
   background-color: black;
 }
+.slider figure img {
+  height: auto;
+  max-height: 90vh;
+}
 }
 
 @media (max-width: $afv-media-phone) {
