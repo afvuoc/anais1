@@ -2162,8 +2162,8 @@ header nav ul.show {
   background-color: black;
 }
 .slider figure img {
-  height: 90vh;
-  max-height: 90vh;
+  height: 100vh;
+  max-height: 100vh;
 }
 .projects-link {
   
@@ -2217,16 +2217,16 @@ header nav ul.show {
 @media (max-width: $afv-media-phone) {
   .slider figure img {
     height: 100vh;
-    max-height: 90vh;
+    max-height: 100vh;
   }
   .slider figure {
     font-size: 0;
-    max-height: 90vh;
+    max-height: 100vh;
   }
   .indexnuevo {
     width: 100vw;
   
-    max-height: 90vh;
+    max-height: 100vh;
   }
   .titulo, .titulo2, .titulo3 {
     font-size: 2.5em;
