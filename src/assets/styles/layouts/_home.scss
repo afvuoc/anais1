@@ -2210,6 +2210,35 @@ header nav ul.show {
 .contact .container-form {
   min-height: auto;
 }
+header nav ul {
+
+  border-top: 1px solid black;
+}
+header nav ul.show {
+  left: 0;
+  background-color: rgb(255, 255, 255);
+}
+ header nav ul a {
+  color: black;
+  
+}
+
+header nav ul li:last-child {
+  margin-bottom: 0;
+}
+header nav ul a:hover{
+  color: #646262;
+}
+.indexnuevo {
+ 
+  height: calc(100vh - 2.2rem);
+ 
+}
+.slider {
+  width: 100vw;
+  height: calc(100vh - 2.2rem);
+  max-height: calc(100vh - 2.2rem);
+}
 }
 @media (max-width: 750px) {
   .titulo, .titulo2, .titulo3 {
@@ -2472,14 +2501,6 @@ header nav ul.show {
   color: black;
   
 }
-.projects {
-  padding-bottom: 9%;
-}.about-me .photocv {
-  padding-top: 10%;
-}
-.contact-link {
-  padding-top: 9%;
-}
 header nav ul li:first-child {
   margin: 26px 0;
 }
@@ -2489,9 +2510,23 @@ header nav ul li:last-child {
 header nav ul a:hover{
   color: #646262;
 }
+.projects {
+  padding-bottom: 9%;
+}.about-me .photocv {
+  padding-top: 10%;
+}
+.contact-link {
+  padding-top: 9%;
+}
+
 
 .about-me .curriculumvitae {
   padding-bottom: 7%;
+}
+.swiper-slide-text {
+ 
+  -webkit-animation: swiper-slide-text 40s linear infinite;
+  animation: swiper-slide-text 40s linear infinite;
 }
 }
 
