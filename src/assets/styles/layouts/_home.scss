@@ -2468,7 +2468,7 @@ header nav ul.show {
   left: 0;
   background-color: rgb(255, 255, 255);
 }
-FOOTER nav ul a, header nav ul a {
+ header nav ul a {
   color: black;
   
 }
@@ -2479,6 +2479,15 @@ FOOTER nav ul a, header nav ul a {
 }
 .contact-link {
   padding-top: 9%;
+}
+header nav ul li:first-child {
+  margin: 26px 0;
+}
+header nav ul li:last-child {
+  margin-bottom: 0;
+}
+header nav ul a:hover{
+  color: #646262;
 }
 }
 
