@@ -2102,8 +2102,8 @@ header nav a div, FOOTER nav a div {
 }
 .slider {
   width: 100vw;
-  height: 100vh;
-  max-height: 100vh;
+  height: calc(100vh - 2.4rem);
+  max-height: calc(100vh - 2.4rem);
 }
 .slider figure img {
   height: 95vh;
