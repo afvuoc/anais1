@@ -1637,11 +1637,11 @@ button {
 
 .titulo{
   font-size: 4em;
-  padding-left: 5vw;
+  padding-left: 4vw;
 }
 .titulo2{
   font-size: 4em;
-  padding-left: 7vw;
+  padding-left: 5vw;
 }
 .titulo3{
   font-size: 4em;
@@ -1741,7 +1741,63 @@ padding-top: 26vh;font-weight: lighter; display:flex;
   padding-top: 0vh;
 
 }
+.titulo4{
+  padding-left: 6vw;
+}
 
+.phones{
+  width: 30vw; padding-left:70vw;
+}
+
+
+.phones img{
+  width: 60%;
+  padding-top: 7vh;
+}
+.phones img:first-child{
+  width: 60%;
+  padding-top: 0vh;
+}
+
+.about__introduction__content{
+  padding-left:4.5vw;line-height:4.5rem;
+} 
+.projects .container .row .card .card-header img {
+  height: auto;
+
+}
+@media (max-width: 1350px) {
+  .titulo,.titulo2,.titulo3,.titulo4 {
+    font-size: 3.9em;
+  }
+  .web{display:none;}
+}
+@media (max-width: 1200px) {
+  .titulo,.titulo2,.titulo3,.titulo4{
+    padding-left:0;
+    font-size: 3em;
+  }
+  .web{display:none;}
+  .phones {
+    width: 30vw;
+    padding-left: 65vw;
+  }
+  .phones img,.phones img:first-child  {
+    width: 78%;
+  }
+  .about__introduction__content{
+   line-height:3.8rem;
+  }
+}
+@media (max-width: 950px) {
+  .titulo, .titulo2, .titulo3, .titulo4 {
+    font-size: 2.8em;
+    
+  }
+  .about__introduction__content {
+    line-height: 3.6rem;
+  }
+}
 @media (max-width: $afv-media-tablet) {
   .slider{
     display:block;
@@ -2083,7 +2139,12 @@ header nav ul.show {
 
 }
 }
-
+@media (max-width: 750px) {
+  .titulo, .titulo2, .titulo3 {
+    font-size: 3em;
+    line-height: 3.6rem;
+  }
+}
 @media (max-width: $afv-media-phone) {
   .slider figure img {
     height: 100vh;
@@ -2261,3 +2322,60 @@ line-height: 2.3rem;
   font-size: 0.95rem;
 }
 }
+
+
+
+.box{
+
+ 
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+.box span{
+  position: relative;
+  line-height: 3.3rem;  display: inline-block;
+  animation: bounce 0.5s ease infinite alternate;
+  top:-5px;
+}
+@keyframes bounce{
+  100%{
+   top:0px;
+  }
+}
+.box span:nth-child(2){
+  animation-delay:0.1s;
+}
+.box span:nth-child(3){
+  animation-delay:0.2s;
+}
+.box span:nth-child(4){
+  animation-delay:0.3s;
+}
+.box span:nth-child(5){
+  animation-delay:0.4s;
+}
+.box span:nth-child(6){
+  animation-delay:0.5s;
+}
+.box span:nth-child(7){
+  animation-delay:0.6s;
+}
+.box span:nth-child(8){
+  animation-delay:0.4s;
+}
+.box span:nth-child(9){
+  animation-delay:0.3s;
+}
+
+
+.box1 spam{
+  -webkit-animation: bounce .75s infinite alternate;
+}
+@keyframes bounce{
+0% {
+  transform: translateY(0px);
+}
+100% {
+  transform: translateY(-5px);
+}}
