@@ -671,7 +671,9 @@ font-weight: 400;
   }
 }
 @media (max-width: $afv-media-tablet) {
-  
+  .about-me .curriculumvitae {
+    padding-right: 0;
+  }
   .about-me {
 
     .photocv {
