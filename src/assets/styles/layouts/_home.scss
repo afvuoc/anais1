@@ -2242,6 +2242,9 @@ header nav ul a:hover{
 .swiper-slide2 {
   position: relative;
 }
+.about-me .photocv img {
+  height: auto;
+}
 }
 @media (max-width: 750px) {
   .titulo, .titulo2, .titulo3 {
@@ -2530,6 +2533,9 @@ header nav ul a:hover{
  
   -webkit-animation: swiper-slide-text 40s linear infinite;
   animation: swiper-slide-text 40s linear infinite;
+}
+.about-me .photocv img {
+  height: auto;
 }
 }
 
