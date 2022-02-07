@@ -11,6 +11,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <title>Anaís Fernández | Diseño & desarrollo web</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 </head>
 
 <body>
@@ -212,11 +214,12 @@
   <main>
     <article  class="indexnuevo">
 
-      <div class="about__introduction__content desktop-only">
+      <div class="about__introduction__content desktop-only" data-aos="fade-up"
+      data-aos-anchor-placement="center-center" id="caja-flotante">
         <h2 class="about__introduction__title titulo" style="
       font-family: Montreal-book,sans-serif;font-weight: lighter;
       color: #fafafa;
-      will-change: transform;">
+      will-change: transform;" >
           <span class="serif-font" style="font-family: Playfair Display,serif;">Hola!</span> Soy Anaís,
         </h2>
         <h2 class="about__introduction__title titulo2" style="
@@ -832,7 +835,10 @@ padding-top: 0.8rem;" class="social">Behance</h1>
       </a>
     </nav>
   </footer>
-
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+  AOS.init();
+  </script>
   <script src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
 </body>
 

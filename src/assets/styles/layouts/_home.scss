@@ -596,7 +596,7 @@ font-weight: 400;
       width: 50vw;
 
       img {
-      right: 4.5vw;
+        right: 3vw;
       width: 38vw;
       padding-top: 12%;
       }
@@ -654,9 +654,24 @@ font-weight: 400;
       }
     }
   }
+  .about-me .curriculumvitae {
+    width: 50vw;
+ 
+    padding-right: 6vw;
+  }
 }
-
+@media (max-width: 900px) {
+  .about-me .curriculumvitae {
+    padding-right: 8vw;
+  }
+}
+@media (max-width: 850px) {
+  .about-me .curriculumvitae {
+    padding-right: 10.5vw;
+  }
+}
 @media (max-width: $afv-media-tablet) {
+  
   .about-me {
 
     .photocv {
@@ -1325,6 +1340,10 @@ footer {
       }
     }
   }
+  header nav, FOOTER nav {
+    width: 90vw;
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: $afv-media-phone){
@@ -1788,16 +1807,27 @@ padding-top: 26vh;font-weight: lighter; display:flex;
   .about__introduction__content{
    line-height:3.8rem;
   }
+ 
 }
+
 @media (max-width: 950px) {
   .titulo, .titulo2, .titulo3, .titulo4 {
     font-size: 2.8em;
     
   }
+ 
   .about__introduction__content {
     line-height: 3.6rem;
   }
+ 
+  
 }
+@media (min-height: 200vh) {
+  .about__introduction__content {
+    display:none;
+  }
+}
+
 @media (max-width: $afv-media-tablet) {
   .slider{
     display:block;

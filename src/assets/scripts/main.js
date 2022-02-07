@@ -114,3 +114,31 @@ $(function() {
     }, 50);
 
   });
+
+  $(document).ready(function(){
+	//var altoVentana = $('#Ventana').css('height').replace("px","");//usa este para que desaparezca despues de pasar el alto del div
+	var altoVentana = 0;
+	var posicionVentana = document.getElementById("Ventana").offsetTop;
+	$(window).scroll(function(event){
+		var posicionScroll = $(this).scrollTop();
+	   	if (posicionScroll > (parseInt(posicionVentana)+parseInt(altoVentana))){
+	    	$("#Ventana").css("display","none");
+	   	} else {
+	    	$("#Ventana").css("display","");
+	   	}
+
+	});
+});
+
+$(function(){
+    $(window).scroll(function(){
+        if ($(window).scrollTop() > 30)
+        {
+            $("#caja-flotante").fadeOut();
+        }
+        else
+        { 
+            $("#caja-flotante").fadeIn();
+        }
+    });
+});
