@@ -1326,6 +1326,9 @@ footer {
   }
 }
 
+.contactame{
+  width:100vw; height:1px; background:white;z-index:100;display:block;position:relative; 
+}
 /* Media queries footer */
 @media (max-width: $afv-media-tablet) {
 
@@ -2425,6 +2428,27 @@ line-height: 2.3rem;
 }
 .about-me .photocv {
   padding-top: 9%;
+}
+.contact, .contact .container-form {
+  z-index: 5;
+  background: #000;
+}
+
+.contactame{
+  width: 100vw;
+  height: 1px;
+  background: black;
+  z-index: 100;
+  display: block;
+  position: relative;
+}
+.contact-link {
+  padding-bottom: 0;
+  border-bottom: 1px solid white;
+}
+contact .container-form {
+  min-height: auto;
+  padding-top: 12%;
 }
 }
 
