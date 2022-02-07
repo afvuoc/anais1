@@ -2182,8 +2182,14 @@ header nav ul.show {
   width: 90vw;
   height: 70vh;
 }
-.projects .container .row .card:last-child{
+
+.projects .container .row .pocho {
   margin-bottom: 0;
+
+}
+
+.projects .container {
+  padding-bottom: 0;
 }
 
 .about-me .curriculumvitae {
