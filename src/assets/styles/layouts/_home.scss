@@ -2171,7 +2171,7 @@ header nav ul.show {
 
 }
 .about-me-link {
-  padding-top: 2%;
+  padding-top: 10%;
  
 }
 .about-me .photocv {
@@ -2182,6 +2182,10 @@ header nav ul.show {
   width: 90vw;
   height: 70vh;
 }
+.projects .container .row .card:last-child{
+  margin-bottom: 0;
+}
+
 .about-me .curriculumvitae {
 
   padding-top: 6vh;
