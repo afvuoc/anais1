@@ -347,6 +347,12 @@ header, FOOTER {
 }
 
 @media (max-width: $afv-media-tablet) {
+  .about-me .curriculumvitae .flexbox-container div p {
+    font-size: 1em;
+   
+    font-weight: 300;
+  }
+
   html {
  
     font-weight:300;
