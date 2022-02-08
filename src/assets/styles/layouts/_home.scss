@@ -72,19 +72,19 @@
 html {
   overflow-y: scroll;
   scroll-behavior: smooth;
-  font: 400 15px/1.5  Montreal-book,sans-serif;
+  font: 400 15px/1.5  sans-serif;
   font-weight: lighter;
 }
 
 @media (min-width: 1400px) and (min-height: 1000px) {
   html {
-    font: 400 18px/1.5  Montreal-book,sans-serif;;
+    font: 400 18px/1.5  sans-serif;;
   }
 }
 
 @media (min-width: 1800px) {
   html {
-    font: 400 22px/1.5  Montreal-book,sans-serif;;
+    font: 400 22px/1.5  sans-serif;;
   }
 }
 
