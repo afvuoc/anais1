@@ -347,11 +347,7 @@ header, FOOTER {
 }
 
 @media (max-width: $afv-media-tablet) {
-  .about-me .curriculumvitae .flexbox-container div p {
-    font-size: 1em;
-   
-    font-weight: 300;
-  }
+
 
   html {
  
@@ -1346,6 +1342,11 @@ footer {
 }
 /* Media queries footer */
 @media (max-width: $afv-media-tablet) {
+  .about-me .curriculumvitae .flexbox-container div p {
+    font-size: 1em;
+   
+    font-weight: 300;
+  }
 
   footer {
     padding-top: 22px;
