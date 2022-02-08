@@ -21,8 +21,8 @@ $afv-border-bottom: 1px solid;
 $afv-header-height: 4.4rem;
 $slider-with:100%/6;
 
-@mixin sucess-error($afv-sucess-error-color: #ff6b31) {
-  border-color: $afv-sucess-error-color;
+@mixin sucess-error($afv-sucess-error-color: white) {
+  border-color: white;
 }
 
  .dot {
