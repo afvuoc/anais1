@@ -111,6 +111,11 @@ header, FOOTER {
       float: left;
       height: 3.3rem;
 
+      &:hover{
+        color: #94c7fd;
+
+      }
+
       img {
         height: 55%;
 
@@ -130,14 +135,14 @@ header, FOOTER {
         text-transform: uppercase;
       }
         a {
-          color: #fafafa;
+          color: #ffffff;
           font-size: 0.8rem;
           font-family: Montreal-medium,sans-serif;
           text-decoration: none;
           font-weight:400;
         
           &:hover{
-            color: $afv-color-white;
+            color: #94c7fd;
 
           }
           &:active{
@@ -1623,9 +1628,7 @@ margin-bottom: 0.8rem;
   font-weight:300;
   }
 
-.social:hover{
-font-weight:600;
-}
+
 
 .contacta{
   display:none;
@@ -2227,7 +2230,7 @@ header nav ul li:last-child {
   margin-bottom: 0;
 }
 header nav ul a:hover{
-  color: #646262;
+  color: #94c7fd;
 }
 .indexnuevo {
  
@@ -2299,6 +2302,7 @@ line-height: 2.3rem;
   .dot {
     width: 6px;
     height: 6px;
+    color:#94c7fd;
  
   }
   .projects .container .row .card .card-body h1 {
@@ -2514,7 +2518,7 @@ header nav ul li:last-child {
   margin-bottom: 0;
 }
 header nav ul a:hover{
-  color: #646262;
+  color: #94c7fd;
 }
 .projects {
   padding-bottom: 9%;
@@ -2584,7 +2588,6 @@ header nav ul a:hover{
   animation-delay:0.3s;
 }
 
-
 .box1 spam{
   -webkit-animation: bounce .75s infinite alternate;
 }
@@ -2597,3 +2600,69 @@ header nav ul a:hover{
 }}
 
 
+.prueba:hover {
+  color: #94c7fd;
+}
+
+.contact .container-form .form-fields form button:hover {
+  filter: invert(1);
+  background: #94c7fd;
+}
+.contact .container-form .form-fields {
+
+  filter: invert(0);
+}
+.contact .container-form .form-fields {
+
+  background-color: black;
+}
+.contact .container-form .form-fields form .form-control input, .contact .container-form .form-fields form .form-control textarea{
+ 
+  color: white;
+  border: 1px solid white;
+  background: black;
+}
+
+.contact .container-form .form-fields form .form-control input:focus,  .contact .container-form .form-fields form .form-control textarea:focus {
+  outline: 0;
+  color: #94c7fd;
+  opacity:1;
+}
+.contact .container-form .form-fields form button {
+  padding: 12px 22px;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  font-size: 1.15rem;
+  font-weight: 300;
+  color: white;
+  cursor: pointer;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 30px;
+}
+.contact .container-form .form-fields form button:hover {
+  filter: invert(1);
+  background: #94c7fd;
+  color: black;
+  opacity: 1;
+  border: 1px solid black;
+}
+
+.social:hover {
+  font-weight: 300;
+  color: #94c7fd;
+  opacity:1;
+}
+
+.dot {
+
+  color:#94c7fd;
+
+}
+.contact .container-form .form-fields form .form-control small {
+  position: absolute;
+  right: 1rem;
+  bottom: 0.7rem;
+  color: #e74c3c;
+  visibility: hidden;
+}
