@@ -24,16 +24,3 @@ $slider-with:100%/6;
 @mixin sucess-error($afv-sucess-error-color: white) {
   border-color: white;
 }
-
- .dot {
-  width: 8px;
-  height: 8px;
-  background-color: #94c7fd;
-  display: inline-block;
-  border-radius: 50px;
-  position: relative;
-  top: -1px;
-  left: 4px;
-  margin-left: 3px;
-margin-right: 5px;
-}
